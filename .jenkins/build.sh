@@ -13,6 +13,8 @@ sudo apt-get install -y --no-install-recommends unzip p7zip-full sox libsox-dev 
 
 export PATH=/opt/conda/bin:$PATH
 rm -rf src
+
+# Allow prerelease in requirements.txt
 pip install -r $DIR/../requirements.txt
 
 # export PATH=/opt/conda/bin:$PATH
